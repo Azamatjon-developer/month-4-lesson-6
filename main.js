@@ -40,19 +40,16 @@
 //     }
 // }
 
-
-
 // number (19)
-//  2 task finished 
 
+
+//  2 task finished 
 
 //   3 task starts sozlar ichida bor yoki yuq ekani aniqladim 
 
-
-
 // const string = () => {
 //     let arr = ["olma" , "Davlat" , "Xalq" , "Dasturchi" , "Dasturlash" , "Google" , "boolean"] 
-//     let word = "olma"
+//     let word = "olcha"
 
 
 //     if(arr.includes(word)) {
@@ -72,7 +69,6 @@
 //  4 task starts  funksiya ichidagi nechinchi indexda ekanini topadi 
 
 
-
 // let arr = ["Azamat" , 23, "Jasur" , "Aziz" , "Alisher"] ;
 
 
@@ -87,7 +83,7 @@
 // }
 
 
-// console.log(FindIndex(arr , "Aziz"))
+// console.log(FindIndex(arr , "Alisher"))
 
 //  4 task finished 
 
@@ -105,23 +101,96 @@
 
 // console.log(resultObj)
 
+//  5 tasks finished 
+
+
+// 6 task 2 ta sonlardan iborat bolgan obj yaratdim 
+
+
+// let obj_one = {number_one :23} 
+// let obj_two = {number_two :12} 
+
+// console.log(obj_one) 
+// console.log(obj_two)
+
+
+//  6 task finished bu yerda 2 ta obj yaratish soralgan holos 
+
+// 7 task starts 2 ta obj ni qoshganman 
+
+
+// let obj_one = {number_one :23} 
+// let obj_two = {number_two :12}
+// const resultObj = Object.assign({}, obj_one, obj_two) 
 
 
 
 
+// console.log(resultObj) 
+
+
+//  7 tasks finished 
 
 
 
-6 task 2 ta sonlardan iborat bolgan obj yaratdim bu 6 task uchun keyingisi 7 chi task uchun ikkalasini object assign orqali birlashtirdim 
+
+//  8 tasks keylarini qoshganman 
 
 
-let obj_one = {number_one : 23 , number_two : 12} 
-let obj_two = {number_one : 1 , number_two:2}
-
-const resultObj = Object.assign({obj_one}, obj_two) 
+// let obj_one = {number_one :23} 
+// let obj_two = {number_two :12}
 
 
-console.log(resultObj)
+// const resultObj = Object.assign({}, obj_one, obj_two) 
+
+// let getKey = Object.keys(resultObj) 
+
+
+// console.log(getKey)  
+
+
+// 8 tasks finished 
+
+
+// 9 taks  starts value ni qoshganman  
+
+// let obj_one = {number_one :453} 
+// let obj_two = {number_two :122}
+
+// const resultObj = Object.assign({}, obj_one, obj_two) 
+
+// let getValue = Object.values(resultObj) 
+
+
+
+// console.log(getValue) 
+
+
+//  9 tasks finished  
+
+
+
+
+//  10 tasks starts ikkalasini yigindisini topgan 
+
+// let obj_one = {number_one :5} 
+// let obj_two = {number_two :7}
+
+// const resultObj = Object.assign({}, obj_one, obj_two) 
+
+// let sum = 0;
+// let getValue = Object.values(resultObj) 
+
+// for(let i = 0; i < getValue.length; i++){
+//     sum += getValue[i];
+// }
+
+
+// console.log(sum) 
+
+//  10 taks finished  
+
+
 
 
 
